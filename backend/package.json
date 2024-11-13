@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backned of char dekho",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev" : "nodemon src/ index.js"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "Arshalan Quasain",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
