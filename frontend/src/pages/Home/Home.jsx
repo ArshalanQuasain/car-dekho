@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import axiosInstances from '../../utils/axiosinstance';
 import Toast from '../../components/ToastMessage/Toast';
 import EmptyCard from '../../components/emptyCard/EmptyCard';
-import noData from '../../assets/Images/noData.jpg'
+import noData from '../../assets/Images/noData.jpeg'
 
 function Home() {
   const [openAddEditModel, setOpenAddEditModel] = useState({
