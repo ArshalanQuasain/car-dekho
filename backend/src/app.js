@@ -7,7 +7,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: "*", // Replace with your frontend URL
+    origin: "*", 
     credentials: true,
 }));
 
