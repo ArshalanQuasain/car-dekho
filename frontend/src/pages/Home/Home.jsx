@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Carcard from '../../components/cards/Carcard';
-import moment from 'moment';
 import { MdAdd } from 'react-icons/md';
 import AddEditCar from './AddEditcar';
 import Modal from 'react-modal';
