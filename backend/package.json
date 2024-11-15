@@ -1,12 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "backned of char dekho",
+  "description": "backend of char dekho",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node src/index.js" 
+    "start": "node src/index.js"
   },
   "keywords": [
     "mern"
