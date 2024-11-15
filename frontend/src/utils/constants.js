@@ -1,1 +1,1 @@
-export const BASE_URL = 'http://localhost:8000/api/v1/users';
+export const BASE_URL = 'https://car-dekho-4.onrender.com/api/v1/users';
