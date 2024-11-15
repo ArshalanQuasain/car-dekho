@@ -5,10 +5,12 @@ import userRouter from "./routes/user.routes.js";
 
 const app = express();
 
+
 app.use(cors({
-    origin: process.env.CORS_ORIGIN,
-    credentials: true
+    origin: "http://localhost:5173", // Replace with your frontend URL
+    credentials: true,
 }));
+
 
 app.use(express.json({ limit: "16kb" }));
 app.use(express.urlencoded({ extended: true, limit: "16kb" }));
