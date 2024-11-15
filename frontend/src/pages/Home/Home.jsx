@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import axiosInstances from '../../utils/axiosinstance';
 import Toast from '../../components/ToastMessage/Toast';
 import EmptyCard from '../../components/emptyCard/EmptyCard';
-import noData from "../../assets/Images/NoCar.png"; 
+import noCar from '../../assets/Images/NoCar.png'
 
 function Home() {
   const [openAddEditModel, setOpenAddEditModel] = useState({
@@ -149,7 +149,7 @@ function Home() {
           </div>
         ) : (
           <EmptyCard
-            imgSrc={noData}
+            imgSrc={noCar}
             message={isSearch ? `Oops no cars found with your query` : `Start adding your first car! Click the 'Add' button to add a new car listing.`}
           />
         )}
